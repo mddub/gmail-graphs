@@ -8,7 +8,7 @@ Fair warning: a lot of this code is inelegant. Don't study it as an example of h
 
 ![Figure 3: Inbox count by age](https://raw.githubusercontent.com/mddub/gmail-graphs/master/sample-output/figure-3.png)
 
-See `calculate_email_ages_on_each_day.py` and the [Inbox count by age] notebook to graph the results.
+See `compute_ages_on_each_day.py` and the [Inbox count by age] notebook to graph the results.
 
 ### Other graphs
 
