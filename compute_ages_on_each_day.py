@@ -32,7 +32,8 @@ log_files = [f for f in os.listdir(LOG_DIR) if f.endswith('.json')]
 timestamps_and_files = [
     (
         datetime.strptime(f, '%Y-%m-%d_%H.%M.%S.json'),
-        os.path.join('messages', f))
+        os.path.join('messages', f)
+    )
     for f in log_files
 ]
 dates = sorted(set([d.date() for d, _ in timestamps_and_files]))
