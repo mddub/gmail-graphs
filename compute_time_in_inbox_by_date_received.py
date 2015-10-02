@@ -3,8 +3,6 @@ import sys
 from collections import defaultdict
 from datetime import datetime
 from datetime import timedelta
-from dateutil.parser import parser
-from pytz import timezone
 
 import simplejson as json
 

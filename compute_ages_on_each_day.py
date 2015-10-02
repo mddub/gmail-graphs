@@ -2,11 +2,11 @@ import os
 import sys
 from datetime import datetime
 from datetime import timedelta
-from dateutil.parser import parser
-from dateutil.tz import tzlocal
 from operator import itemgetter
 
 import simplejson as json
+from dateutil.parser import parser
+from dateutil.tz import tzlocal
 
 # Assume the current system timezone is the same timezone as the log file names
 # so we can assign a timezone to a timestamp like '2015-06-01_01_00_01.json'.
