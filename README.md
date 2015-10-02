@@ -4,6 +4,18 @@ Been using [gmail-logger] to collect data about your Gmail inbox, and want to ge
 
 Fair warning: a lot of this code is inelegant. Don't study it as an example of how to do Pandas/Matplotlib right.
 
+### Quick start
+
+Make sure you have `ipython`, `pip`, and `virtualenv` installed.
+
+```
+git clone https://github.com/mddub/gmail-graphs
+cd gmail-graphs
+virtualenv venv && . venv/bin/activate
+pip install -r requirements.txt
+ipython notebook --pylab inline
+```
+
 ### Figures 1 & 2: Inbox count over time
 
 ![Figure 2: Inbox count over time](https://raw.githubusercontent.com/mddub/gmail-graphs/master/sample-output/figure-2.png)
